@@ -1,0 +1,21 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-hypermd",
+  "version": "0.0.1",
+  "description": "A simple start for HyperMD.",
+  "main": "server.js",
+  "scripts": {
+    "start": "parcel index.html -p 8000"
+  },
+  "dependencies": {
+    "parcel-bundler": "*",
+    "hypermd": "*",
+    "codemirror": "^5.37.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "license": "MIT"
+}
